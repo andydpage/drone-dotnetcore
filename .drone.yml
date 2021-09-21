@@ -5,4 +5,3 @@ steps:
   image: microsoft/dotnet:sdk
   commands:
     - sh build.sh
-    - sh ls
