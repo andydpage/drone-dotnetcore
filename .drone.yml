@@ -4,6 +4,6 @@ name: dotnet
 
 steps:
 - name: compile
-  image: microsoft/dotnet:sdk
+  image: mcr.microsoft.com/dotnet/sdk:5.0
   commands:
     - sh build.sh
