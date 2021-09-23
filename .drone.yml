@@ -2,11 +2,6 @@ kind: pipeline
 type: docker
 name: dotnet
 
-platform:
-  os: windows
-  arch: amd64
-  version: 2114
-
 steps:
 - name: compile
   image: mcr.microsoft.com/dotnet/sdk:5.0
